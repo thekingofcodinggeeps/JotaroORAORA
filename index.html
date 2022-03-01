@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("https://media.istockphoto.com/vectors/top-view-urban-city-map-housing-and-commercial-area-illustration-vector-id1013162986?k=20&m=1013162986&s=612x612&w=0&h=958V_0SkMWc3co8vDNG1wCaC1_xER5YYekgLkTQvJw4=");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h3,h4
+{
+	color: rgb(255, 241, 43) !important;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<title>Road Driving</title>
+</head>
+<body onload="add();">
+
+<center>
+<h1>Drive</h1>
+<h3>Move the green car with arrow keys</h3>
+<h4>
+	<b class="text-danger">NOTE : </b> IF CAR IS NOT VISIBLE PRESS ANY ARROW KEY
+</h4>
+
+	<canvas id="myCanvas" width="800" height="400">
+	</canvas>
+
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
